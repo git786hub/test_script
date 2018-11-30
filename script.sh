@@ -2,8 +2,8 @@
 cd /home/ec2-user
 sudo amazon-linux-extras install -y docker
  sudo service docker start
-  sudo docker pull apulkit21/jpetstore:7
- sudo docker run -p 80:8080 -itd  apulkit21/jpetstore:7
+  sudo docker pull apulkit21/jpetstore:8
+ sudo docker run -p 80:8080 -itd  apulkit21/jpetstore:8
  cd /tmp
  git clone https://github.com/DEVIKA1308/zyz.git
 curl http://169.254.169.254/latest/meta-data/public-ipv4> /tmp/zyz/test.txt
